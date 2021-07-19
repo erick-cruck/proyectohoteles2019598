@@ -1,0 +1,17 @@
+.nav {
+    margin-top: -15px;
+	
+}
+
+.nav-item > a{
+	display: block;
+	padding: 15px 20px;
+	color: #000000;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.nav-item a:hover{
+	color: #2d8da5;
+	transition: all .3s;
+}

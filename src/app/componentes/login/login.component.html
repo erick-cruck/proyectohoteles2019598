@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="login">
+        <h1>Ingresar</h1>
+            
+                <form>
+                    <img src="https://image.flaticon.com/icons/png/128/847/847969.png" class="logo" alt="">
+                    <div class="contenedor">
+                        <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" name="email" #email="ngModel" [(ngModel)]="usuarioModel.email">
+                    </div>
+                    <div class="contenedor">
+                        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" name="password" #password="ngModel" [(ngModel)]="usuarioModel.password">
+                    </div>
+                    <button type="submit" class="btn btn-primary" (click)="getToken()">Ingresar</button>
+                </form>
+            
+      
+    </div>
+
+
+
+</body>
+
+
+</html>

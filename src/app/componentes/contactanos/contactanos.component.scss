@@ -1,0 +1,31 @@
+/*Pagina de error 404*/
+.error {
+    width:900px;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.151);
+    color: #fff;
+    top: 50%;
+    left: 30%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+  text-align: center;
+  padding: 20px 20px;
+  border-radius: 2%;
+  }
+  
+  .error p {
+    margin-bottom: 17px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 30px;
+    color: rgb(24, 16, 16);
+  }
+  
+  .error h1 {
+    margin-bottom: 20px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 30px;
+    color: rgb(24, 16, 16);
+  }

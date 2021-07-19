@@ -1,0 +1,88 @@
+.fondo{
+    background-color: #00000063;
+}
+.card {
+    background-color: rgba(105, 105, 105, 0.322);
+    border-color: #ffffff00;
+    width: 60%;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 20%;
+  
+}
+.card :hover{
+	color: #2d8da5;
+	transition: all .3s;
+}
+.detalles {
+    display: flex;
+    margin-top: 5%;
+}
+
+.detalles1 {
+    width: 30%;
+    margin-left: 2.5%;
+    margin-top: 6%;
+}
+
+.detalles1 h1 {
+    color: black;
+    text-align: center;
+}
+
+.detalles2 {
+    width: 30%;
+    margin-left: 2.5%;
+    margin-top: 3%;
+}
+
+.detalles2 h1 {
+    color: black;
+    text-align: center;
+}
+
+.detalles3 {
+    width: 30%;
+    margin-left: 2.5%;
+    margin-top: 6%;
+}
+
+.detalles3 h1 {
+    color: black;
+    text-align: center;
+}
+
+.hoteles {
+    display: flex;
+}
+
+@media only screen and (max-width:900px) {
+    .card {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: -40%;
+    }
+    .detalles {
+        display: inline;
+    }
+    .detalles1 {
+        width: 80%;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+    .detalles2 {
+        width: 80%;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+    .detalles3 {
+        width: 80%;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+    .hoteles {
+        display: inline;
+        
+    }
+}
+
